@@ -16,10 +16,11 @@ import fsa_test
 class TestFsa_test(unittest.TestCase):
 
     def setUp(self):
-        pass
+        self.hello_message = "Hello, Fahim here!"
 
     def test_something(self):
-        assert(fsa_test.__version__)
+	output = fsa_test.hello()
+        assert(output == self.hello_message)
 
     def tearDown(self):
         pass

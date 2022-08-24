@@ -1,8 +1,10 @@
-import click
+from __future__ import print_function
 
-@click.command()
-def cli():
-    click.echo("Hello, World!")
+def hello():
+	""" Returns a Hello, World! """
+	return("Hello, World!")
 
-if __name__ == '__main__':
-    cli()
+
+def say_hello():
+	"""Prints Hello, World again! """
+	print(hello())
