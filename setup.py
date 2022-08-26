@@ -27,7 +27,7 @@ test_requirements = [
 
 setup(
     name='fsa_test_one',
-    version=versioneer.get_version(),
+    version="1.0",
     cmdclass=versioneer.get_cmdclass(),
     description="this is just a simple hello world package.",
     long_description=readme + '\n\n' + history,
