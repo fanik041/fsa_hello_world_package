@@ -1,1 +1,2 @@
 fsa_hello_world_package/_version.py export-subst
+fsa_test/_version.py export-subst
